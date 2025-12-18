@@ -1,0 +1,29 @@
+                              OLS Regression Results                              
+==================================================================================
+Dep. Variable:     Température_en_janvier   R-squared:                       0.854
+Model:                                OLS   Adj. R-squared:                  0.839
+Method:                     Least Squares   F-statistic:                     56.68
+Date:                    Sun, 14 Dec 2025   Prob (F-statistic):           3.04e-12
+Time:                            11:19:13   Log-Likelihood:                -83.607
+No. Observations:                      33   AIC:                             175.2
+Df Residuals:                          29   BIC:                             181.2
+Df Model:                               3                                         
+Covariance Type:                nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         29.6809      5.396      5.501      0.000      18.646      40.716
+Latitude      -1.1335      0.108    -10.527      0.000      -1.354      -0.913
+Longitude      0.1460      0.041      3.529      0.001       0.061       0.231
+Altitude      -0.0055      0.001     -4.062      0.000      -0.008      -0.003
+==============================================================================
+Omnibus:                        1.029   Durbin-Watson:                   1.713
+Prob(Omnibus):                  0.598   Jarque-Bera (JB):                0.256
+Skew:                           0.093   Prob(JB):                        0.880
+Kurtosis:                       3.389   Cond. No.                     5.71e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.71e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
